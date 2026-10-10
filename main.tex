@@ -245,5 +245,30 @@ Con este cambio se busca conservar tanto la componente fundamental de la señal 
 
 En conjunto, las modificaciones realizadas permiten establecer una banda de paso nominal comprendida aproximadamente entre \SI{0.34}{\hertz} y \SI{15.92}{\hertz}, mejorando la respuesta en frecuencia del sistema respecto de la configuración original. De esta manera, se espera obtener una señal pletismográfica con menor atenuación de sus componentes de interés, facilitando su posterior visualización y análisis.
 
+\section{Resultados}
+
+\subsection{Resultados con la configuración original}
+
+Al implementar el circuito con los valores originales de sus componentes, se logró visualizar una señal pletismográfica mediante el osciloscopio. Sin embargo, la señal obtenida presentaba una amplitud considerablemente reducida y una presencia de ruido que dificultaba su correcta visualización. A pesar de estas limitaciones, fue posible identificar las variaciones periódicas de la componente alterna, asociadas a los cambios de volumen sanguíneo producidos durante cada ciclo cardíaco, como se observa en la Figura~\ref{fig:curva_original}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{Imagenes/CurvaOriginal.jpeg}
+    \caption{Señal pletismográfica obtenida experimentalmente mediante el osciloscopio, utilizando la configuración original del circuito.}
+    \label{fig:curva_original}
+\end{figure}
+
+Estas dificultades podrían atribuirse principalmente a la selección de las frecuencias de corte de los filtros y a las características de la etapa de amplificación. Como se analizó anteriormente, el filtro pasa-altos presentaba una frecuencia de corte de \SI{3.39}{\hertz}, mientras que la del pasa-bajos era de \SI{1.59}{\hertz}, provocando una atenuación considerable de las componentes de interés. Asimismo, aunque el amplificador presentaba una ganancia teórica de 101, esta no necesariamente resultaba suficiente para compensar la baja amplitud de la señal adquirida y las pérdidas introducidas por el filtrado.
+
+Por lo tanto, si bien el circuito permitió detectar la actividad pulsátil, los resultados obtenidos evidenciaron la necesidad de modificar las etapas de filtrado para mejorar la amplitud y facilitar la identificación de la señal pletismográfica.
+
+\section{Conclusiones}
+
+La implementación del circuito permitió adquirir y visualizar una señal pletismográfica, identificando las variaciones periódicas asociadas a la actividad cardíaca. Sin embargo, la reducida amplitud y la presencia de ruido dificultaron su visualización, evidenciando limitaciones en el acondicionamiento de la señal.
+
+A partir del análisis teórico posterior a la práctica, se identificó que las frecuencias de corte originales de los filtros provocaban una atenuación considerable de las componentes de interés. Por este motivo, se propusieron modificaciones en los valores de los capacitores para mejorar la respuesta en frecuencia del sistema.
+
+En conclusión, el trabajo permitió comprender la importancia de una correcta selección de las etapas de filtrado y amplificación. Si bien las modificaciones propuestas no fueron implementadas experimentalmente, su análisis permitió identificar posibles mejoras para obtener una señal pletismográfica de mayor amplitud y calidad.
+
 
 \end{document}

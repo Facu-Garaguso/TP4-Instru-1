@@ -1,8 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1791568628.93431 "c:/Users/facun/OneDrive/Documentos/GitHub/TP4-Instru-1/main.tex" "main.pdf" "main" 1791568630.9319 0
+["pdflatex"] 1791642550.6673 "c:/Users/facun/OneDrive/Documentos/GitHub/TP4-Instru-1/main.tex" "main.pdf" "main" 1791642552.78959 0
   "Imagenes/Circuito.png" 1791566270 76770 81b886c291d49a093d84bf62d5a4b08e ""
+  "Imagenes/CurvaOriginal.jpeg" 1791642392 114280 8b43aecbc1e64428888706443904560f ""
   "Imagenes/D9.png" 1791565283 1158152 984718d0504da0c236de52d517640856 ""
-  "c:/Users/facun/OneDrive/Documentos/GitHub/TP4-Instru-1/main.tex" 1791568625 13378 8901a707239bfe85d2f7e67797d56164 ""
+  "c:/Users/facun/OneDrive/Documentos/GitHub/TP4-Instru-1/main.tex" 1791642546 16230 97859b88773f6b10f59b4730994828fd ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1788889832 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1788889832 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1788891658 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -126,10 +127,10 @@
   "c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1788899157 5655996 795b756740562267ad2ae16e70168a76 ""
   "c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1788899281 3658219 a8cea498c3e2356b2ffa2557e93a81f4 ""
   "c:/texlive/2026/texmf.cnf" 1788899116 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1791568630 2389 6944217e3961312b2fd1322992bd9521 "pdflatex"
-  "main.out" 1791568630 1637 74ee172c6724e6120e00356ebdc36d84 "pdflatex"
-  "main.tex" 1791568625 13378 8901a707239bfe85d2f7e67797d56164 ""
-  "main.toc" 1791568630 763 00c7038a4d06938593f43e4570b3f5fa "pdflatex"
+  "main.aux" 1791642552 3187 3005d4f0fff388e83e33a90944e43870 "pdflatex"
+  "main.out" 1791642552 2107 7abf9b4f590fcc3ff9ad30b69abaf6ce "pdflatex"
+  "main.tex" 1791642546 16230 97859b88773f6b10f59b4730994828fd ""
+  "main.toc" 1791642552 1004 3b465c66003a1e99b399d802f2f94742 "pdflatex"
   (generated)
   "main.aux"
   "main.log"

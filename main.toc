@@ -7,3 +7,6 @@
 \contentsline {subsection}{\numberline {3.1}Identificación de los terminales del sensor}{3}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Implementación del circuito de adquisición}{4}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Análisis y modificación de las etapas de filtrado}{6}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Resultados}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Resultados con la configuración original}{6}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Conclusiones}{7}{section.5}%

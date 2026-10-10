@@ -226,6 +226,11 @@ INPUT c:/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+INPUT ./Imagenes/CurvaOriginal.jpeg
+INPUT ./Imagenes/CurvaOriginal.jpeg
+INPUT ./Imagenes/CurvaOriginal.jpeg
+INPUT ./Imagenes/CurvaOriginal.jpeg
+INPUT ./Imagenes/CurvaOriginal.jpeg
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
