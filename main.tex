@@ -262,6 +262,19 @@ Estas dificultades podrían atribuirse principalmente a la selección de las fre
 
 Por lo tanto, si bien el circuito permitió detectar la actividad pulsátil, los resultados obtenidos evidenciaron la necesidad de modificar las etapas de filtrado para mejorar la amplitud y facilitar la identificación de la señal pletismográfica.
 
+\subsection{Resultados modificando la ganancia}
+
+Como experimento, se colocó una resistencia de \SI{100}{\kilo\ohm} en serie con la otra resistencia idéntica (de retroalimentación), casi duplicando la ganancia del amplificador no inversor:
+
+\begin{equation}
+    A_v = 1 + \frac{R_f}{R_g}
+    = 1 + \frac{100\,\text{k}\Omega+100\,\text{k}\Omega}{1\,\text{k}\Omega}
+    = 201
+\end{equation}
+
+Este cambio resultó en una señal pletismográfica de mayor amplitud, sin embargo, el ruido se amplificó junto con la señal. Es decir, resultó más visible la señal pero la relación señal-ruido no sufrió ningún cambio.
+
+
 \section{Conclusiones}
 
 La implementación del circuito permitió adquirir y visualizar una señal pletismográfica, identificando las variaciones periódicas asociadas a la actividad cardíaca. Sin embargo, la reducida amplitud y la presencia de ruido dificultaron su visualización, evidenciando limitaciones en el acondicionamiento de la señal.

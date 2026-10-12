@@ -9,4 +9,5 @@
 \contentsline {subsection}{\numberline {3.3}Análisis y modificación de las etapas de filtrado}{6}{subsection.3.3}%
 \contentsline {section}{\numberline {4}Resultados}{6}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Resultados con la configuración original}{6}{subsection.4.1}%
-\contentsline {section}{\numberline {5}Conclusiones}{7}{section.5}%
+\contentsline {subsection}{\numberline {4.2}Resultados modificando la ganancia}{7}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Conclusiones}{8}{section.5}%
